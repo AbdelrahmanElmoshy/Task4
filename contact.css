@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    scroll-behavior: smooth;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    color: #686868;
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+h2 {
+    color: #253048;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+
+
+
+.header .container {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container .logo {
+    text-align: center;
+    padding: 0px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: black;
+    width: 20%;
+    margin: 10px;
+
+}
+
+.header .container img {
+    width: 50%;
+
+}
+
+.header .container ul {
+    margin-right: 30px;
+    display: flex;
+
+}
+
+.header .container ul li a {
+
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.contact .container {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact .container h2 {
+    color: #253048;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+
+
+
+
+.main {
+    padding: 30px;
+}
+
+.main .container {
+    display: flex;
+    margin: 20px;
+}
+
+.main .container form {
+    width: 50%;
+    margin: 0 15px;
+    padding: 20px;
+}
+
+.main .container .text {
+    width: 50%;
+    padding: 20px;
+}
+
+
+.main .container .text ul {
+    margin-top: 25px;
+}
+
+.main .container .text ul li {
+    color: #686868;
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.main .container .text ul li span {
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #c1ab84;
+    padding: 10px;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.main .container .text ul li .fa-thumbs-up {
+    color: #c1ab84;
+    margin-right: 10px;
+}
+
+.main .container input {
+    width: 49%;
+    margin: 7px 0px;
+    padding: 7px;
+}
+
+.main .container form :focus {
+    outline: none;
+}
+
+.b1 {
+    width: 15%;
+    font-size: 15px;
+    padding: 15px;
+    font-family: 'Alegreya Sans', sans-serif;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-weight: 600;
+
+    background-color: #c1ab84;
+    color: white;
+
+}
+
+.main .container textarea {
+    width: 99%;
+    resize: none;
+    height: 70%;
+}
+
+
+
+.footer {
+    background: #403d38;
+    padding: 30px;
+}
+
+.footer .container {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.footer .container h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+.footer .container p {
+
+    color: #969696;
+    font-size: 16px;
+}
+
+
+.footer .container .col {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    text-align: left;
+    width: calc(100% / 4);
+}
+
+.footer .container .col ul li {
+    color: #686868;
+
+    font-family: "Alegreya Sans";
+
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.footer .container .col ul li:not(.last) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer .container .col ul li svg {
+    padding-right: 10px;
+}
+
+.foot {
+    background-color: #353330;
+    text-align: center;
+}
+
+.foot .container {
+    width: 90%;
+    margin: auto;
+}
+
+.foot .container svg {
+    width: 30px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #403d38;
+    padding: 10px;
+    color: white;
+}
+.foot p{
+    margin-bottom: 10px;
+}
